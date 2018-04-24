@@ -37,11 +37,11 @@
 </head>
 <body>
 	<div class="login_container">
-	<form action="${pageContext.request.contextPath}/index.do" method="POST">
-		账号: <input id="acount" type="text" name="acount">
+	<form action="${pageContext.request.contextPath}/register.do" method="POST">
+		账号: <input id="name" type="text" name="name">
 		<br />
 		密码: <input id="password" type="password" name="password" />
-		<input type="submit"  value="登录" />
+		<input type="submit"  value="注册" />
 	</form>
 	<!--  
 	    <div class="acount_input">

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ly.credit.dao.UserDao">
+	<resultMap type="com.ly.credit.entity.User" id="userBean">
+		<id property="id" column="id"/>
+		<result property="name" column="name"/>
+		<result property="phone" column="phone"/>
+		<result property="passwrod" column="passwrod"/>
+
+	</resultMap>
+	    <!-- 注册 -->
+		<insert id="save" parameterType="com.ly.credit.entity.User">
+			INSERT INTO user (phone,password,name)
+			VALUES (#{phone},#{password},#{name})
+		</insert>
+
+		<!-- 获取用户的详细信息 -->
+		<select id="getUserById" parameterType="int" resultType="com.ly.credit.entity.User">
+			SELECT * FROM user
+			WHERE id=#{id}
+		</select>
+</mapper>
