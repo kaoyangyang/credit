@@ -13,11 +13,6 @@
       <version>1.6.1</version>
     </dependency>
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-      <version>1.7.2</version>
-    </dependency>
-    <dependency>
       <groupId>com.github.pagehelper</groupId>
       <artifactId>pagehelper</artifactId>
       <version>4.1.4</version>
@@ -45,7 +40,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>3.2.8.RELEASE</version>
+      <version>4.3.2.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.mybatis</groupId>
@@ -95,7 +90,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>
-      <version>3.2.8.RELEASE</version>
+      <version>4.3.2.RELEASE</version>
     </dependency>
     <dependency>
   <groupId>org.aspectj</groupId>
@@ -120,7 +115,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jdbc</artifactId>
-      <version>3.2.8.RELEASE</version>
+      <version>4.3.2.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>javax.persistence</groupId>
